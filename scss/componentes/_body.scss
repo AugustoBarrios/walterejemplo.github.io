@@ -1,0 +1,34 @@
+.bi-geo-alt {
+    font-size: 16px !important;
+    color: red;
+}
+
+.paisaje {
+    object-fit: cover;
+}
+
+.card-event {
+
+    img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+}
+
+.card-body {
+    background-color: #f1831b;
+}
+
+.btn-custom {
+    background-color: var(--text-color);
+    color: white;
+    cursor: pointer;
+    width: min-content;
+    white-space: nowrap;
+}
+
+.btn-custom:hover {
+    background-color: var(--secondary-color1);
+    color: white;
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* Aqui se encuentran las variables de color*/
+/* Aqui se encuentran las variables de tamaños*/
+@keyframes un_efecto {
+  0% {
+    width: 0%;
+    background-color: yellow; }
+  50% {
+    width: 50%;
+    background-color: yellow; }
+  100% {
+    width: 100%;
+    background-color: yellow; } }
+
+.AnimacionDeCarga {
+  width: 100%;
+  height: 2px;
+  background-color: transparent;
+  animation-name: un_efecto;
+  animation-iteration-count: unset;
+  animation-timing-function: ease-in;
+  animation-duration: 3s; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0) scale(1); }
+  100% {
+    transform: rotate(1800deg) scale(1.2); } }
+
+.AnimacionDeTitulo {
+  transition: transform 0.3s ease-in-out; }
+
+.AnimacionDeTitulo:hover {
+  animation: rotate 1.8s forwards;
+  transform-origin: center;
+  transform: scale(1.2); }
+
+header {
+  background-color: #eeeeee; }
+  header h1 {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.bi-geo-alt {
+  font-size: 16px !important;
+  color: red; }
+
+.paisaje {
+  object-fit: cover; }
+
+.card-event img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover; }
+
+.card-body {
+  background-color: #f1831b; }
+
+.btn-custom {
+  background-color: var(--text-color);
+  color: white;
+  cursor: pointer;
+  width: min-content;
+  white-space: nowrap; }
+
+.btn-custom:hover {
+  background-color: var(--secondary-color1);
+  color: white; }
+
+footer {
+  color: #a5a1b0; }
+
+.bi {
+  font-size: 32px;
+  color: #eeeeee; }
